@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: url(img/fundo.carros.png);
+  background-size: cover;        /* Faz a imagem cobrir toda a tela */
+  background-position: center;   /* Centraliza a imagem */
+  background-repeat: no-repeat;  /* Evita repetição */
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px 40px;
+}
+
+.cta {
+ display: flex;
+ align-items: center;
+ gap: 390px;
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.menu-flutuante ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  background: rgba(133, 132, 132, 0.3);
+  padding: 10px 28px;
+  border-radius: 30px;
+}
+
+nav a:hover {
+   color: #e63232; 
+  }
+
+  .menu-flutuante a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 60px;
+}
+
+.topo h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.topo h1 span {
+  color: red;                    
+}
+
+.topo p {
+  width: 220px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.cards {
+  display: flex;                 
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* ===== CARD ===== */
+.card {
+  width: 32%;
+  padding: 20px 45px 20px 45px;
+  background-color: rgba(255, 255, 255, 0.25); 
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+}
+
+
+.etiqueta {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-left: -25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 11px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  margin: 25px 0 35px 0;
+}
+
+.card h2 {
+  font-size: 14px;
+}
+
+.cabine {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #ddd;
+}
+
+
+.dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas */
+  gap: 15px 20px;
+  margin-top: 15px;
+}
+
+.dados small {
+  display: block;
+  font-size: 11px;
+  color: #ddd;
+}
+
+.dados strong {
+  font-size: 11px;
+}
+
+
+.preco {
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.financiado {
+  font-size: 7px;
+  color: #ddd;
+}

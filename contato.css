@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  background-image: url(img/fundo_1920x1080.png);
+  background-size: cover;        /* Faz a imagem cobrir toda a tela */
+  background-position: center;   /* Centraliza a imagem */
+  background-repeat: no-repeat;  /* Evita repetição */
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px 40px;
+}
+
+.cta {
+ display: flex;
+ align-items: center;
+ gap: 390px;
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.menu-flutuante ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  background: rgba(133, 132, 132, 0.3);
+  padding: 10px 28px;
+  border-radius: 30px;
+}
+
+nav a:hover {
+   color: #e63232; 
+  }
+
+  .menu-flutuante a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+
+
+.secao-texto{
+  color: white;
+  padding: 60px;
+
+
+}
+
+.secao-navega{
+    text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 200px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 13px;
+}
+
+
+.secao-navega p {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.colunas {
+  display: flex;          
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+footer p,
+footer a {
+  color: #dddddd;
+  text-decoration: none;
+}
